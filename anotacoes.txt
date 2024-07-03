@@ -1,0 +1,30 @@
+Vanntagens da POO:
+COMERNada:
+-Confiável: 
+O isolamento entre as partes gera software seguro. Ao alterar uma parte, nenhuma outra é afetada.
+
+- Oportuno: 
+Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
+
+- Manutenível:
+Atualizar um software é mais fácil. Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
+
+- Extensível:
+O software não é estático. Ele deve crescer para ser útil.
+
+- Reutilizável:
+Podemos usar objetos de um sistema que criamos em outro sistema no futuro.
+
+- Natural:
+Masi fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
+
+* Objeto:
+Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas características, comportamentos e estado atual.
+
+* Classe:
+Molde de um objeto.
+
+* Instanciar: 
+Gerar um objeto a partir de uma classe.
+
+* Abstrair: extrair os principais atributos e métodos relacionados a resolução do problema.
