@@ -1,30 +1,57 @@
-Vanntagens da POO:
+Vantagens da POO:
+
 COMERNada:
--Confiável: 
+
+Confiável:
 O isolamento entre as partes gera software seguro. Ao alterar uma parte, nenhuma outra é afetada.
 
-- Oportuno: 
+Oportuno:
 Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
 
-- Manutenível:
+Manutenível:
 Atualizar um software é mais fácil. Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
 
-- Extensível:
+Extensível:
 O software não é estático. Ele deve crescer para ser útil.
 
-- Reutilizável:
+Reutilizável:
 Podemos usar objetos de um sistema que criamos em outro sistema no futuro.
 
-- Natural:
-Masi fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
+Natural:
+Mais fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
 
-* Objeto:
+Conceitos básicos:
+
+Objeto:
 Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas características, comportamentos e estado atual.
 
-* Classe:
-Molde de um objeto.
+Classe:
+Molde de um objeto. Define atributos e métodos que os objetos da classe terão.
 
-* Instanciar: 
+Instanciar:
 Gerar um objeto a partir de uma classe.
 
-* Abstrair: extrair os principais atributos e métodos relacionados a resolução do problema.
+Abstrair:
+Extrair os principais atributos e métodos relacionados à resolução do problema.
+
+Atributos:
+
+Público: A classe atual e todas as outras classes têm acesso a ela.
+Privado: Somente a classe atual tem acesso.
+Protegido: A classe atual e todas as suas sub-classes têm acesso.
+Pilares do POO:
+
+Encapsulamento:
+
+Encapsular: Ocultar partes independentes da implementação, permitindo construir partes invisíveis ao mundo exterior.
+Interface: Lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com um objeto dessa classe.
+Vantagens:
+Tornar mudanças invisíveis
+Facilitar a reutilização do código
+Reduzir efeitos colaterais
+Herança:
+
+Permite que uma classe (subclasse) herde atributos e métodos de outra classe (superclasse). Facilita a reutilização e extensão do código.
+Polimorfismo:
+
+Permite que objetos de diferentes classes sejam tratados de forma unificada. Métodos podem ser redefinidos (sobrescritos) nas subclasses, permitindo que uma mesma chamada de método tenha comportamentos diferentes dependendo do objeto que a recebe.
